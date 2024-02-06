@@ -3,6 +3,7 @@
 html {
   font-family: "Protest Guerrilla", sans-serif;
   color: white;
+  -webkit-text-size-adjust: none;
 }
 
 body {
