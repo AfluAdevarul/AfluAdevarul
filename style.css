@@ -13,7 +13,7 @@ body {
 
 .container {
   display: flex;
-  height: 100vh;
+  flex-grow: 1;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
@@ -36,6 +36,8 @@ body {
 
 main {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 nav {
