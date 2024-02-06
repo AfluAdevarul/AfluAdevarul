@@ -8,6 +8,7 @@ html {
 body {
   background-color: black;
   overflow: hidden;
+  margin: 0;
 }
 
 .container {
@@ -20,7 +21,7 @@ body {
 }
 
 .truth {
-  font-size: 10rem;
+  font-size: 8rem;
   text-align: center;
 
   @supports (background-clip: text) or (-webkit-background-clip: text) {
@@ -33,11 +34,22 @@ body {
   }
 }
 
+main {
+  height: 100vh;
+}
+
+nav {
+  height: 5%;
+  text-align: center;
+  padding: 20px;
+  background-color: #00fdcf60;
+}
+
 button {
+  font-family: "Protest Guerrilla", sans-serif;
   background-color: black;
   font-size: 4rem;
   text-decoration: none;
-  text-transform: uppercase;
   color: #00fdcf;
   cursor: pointer;
   border: 3px solid;
@@ -56,9 +68,13 @@ button {
   left: 5px;
 }
 
-@media (min-width: 768px) {
-  .button {
+@media (max-width: 768px) {
+  button {
     padding: 0.25em 0.75em;
+  }
+
+  nav {
+    height: 10%;
   }
 }
 
