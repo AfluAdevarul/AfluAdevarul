@@ -93,6 +93,10 @@ button:active {
     width: 80%;
   }
 
+  .truth {
+    font-size: 4rem;
+  }
+
   nav {
     height: 10%;
   }
@@ -103,7 +107,6 @@ button:active {
 
   html {
     -webkit-text-size-adjust: none;
-    font-size: 50%;
   }
 }
 
