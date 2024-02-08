@@ -13,6 +13,13 @@ body {
   margin: 0;
 }
 
+footer {
+  padding: 5% 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .truth {
   font-size: 8rem;
   text-align: center;
@@ -69,7 +76,6 @@ button {
   flex-grow: 0;
   width: 40%;
   margin: 0 auto;
-  margin-bottom: 10%;
 }
 
 button:active {
