@@ -91,7 +91,7 @@ button:active {
   left: 5px;
 }
 
-@media (width <= 768px) {
+/* @media (width <= 768px) {
   button {
     padding: 0.25em 0.75em;
     width: 80%;
@@ -112,7 +112,7 @@ button:active {
   html {
     -webkit-text-size-adjust: none;
   }
-}
+} */
 
 /* BG */
 .full-wh {
