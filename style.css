@@ -121,6 +121,8 @@ button:active {
   button {
     padding: 0.25em 0.75em;
     width: 80%;
+    font-size: 4rem;
+    margin-bottom: 5%;
   }
 }
 
