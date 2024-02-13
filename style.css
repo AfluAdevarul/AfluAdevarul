@@ -49,8 +49,14 @@ nav {
   padding: 20px;
 }
 
+nav img {
+  display: block;
+  height: 80px;
+  width: 80px;
+}
+
 .truth {
-  font-size: 8rem;
+  font-size: 6rem;
   text-align: center;
   padding: 2% 2%;
   flex-grow: 1;
@@ -89,9 +95,9 @@ footer {
 button {
   font-family: "Protest Guerrilla", sans-serif;
   background-color: black;
-  font-size: 4rem;
+  font-size: 3rem;
   text-decoration: none;
-  color: #00fdcf;
+  color: #00fdcf70;
   cursor: pointer;
   border: 3px solid;
   padding: 0.25em 0.5em;
@@ -111,23 +117,10 @@ button:active {
   left: 5px;
 }
 
-@media (width <= 768px) {
+@media (width <= 1024px) {
   button {
     padding: 0.25em 0.75em;
     width: 80%;
-  }
-
-  .truth {
-    font-size: 4rem;
-    padding-top: 10%;
-  }
-
-  nav {
-    height: 10%;
-  }
-
-  html {
-    -webkit-text-size-adjust: none;
   }
 }
 
